@@ -1,0 +1,21 @@
+{
+  "name": "rekenmachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js --mode=production",
+    "dev": "npx webpack --config webpack.config.js --mode=development && npx webpack serve --open --mode=development"
+  },
+  "author": "Lodewijk Emmen",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
